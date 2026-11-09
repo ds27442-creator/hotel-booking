@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>ติดต่อสอบถาม | Hotel Booking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+  <div class="logo">HOTEL BOOKING</div>
+  <nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="hotels.html">ค้นหาที่พัก</a>
+    <a href="contact.html">ติดต่อเรา</a>
+  </nav>
+</header>
+
+<section class="hotels">
+  <h1>ติดต่อสอบถาม</h1>
+  <p>เรายินดีให้บริการและตอบทุกข้อสงสัย</p>
+
+  <form id="contactForm">
+    <p>ชื่อผู้ติดต่อ</p>
+    <input id="name" required>
+
+    <p>อีเมล</p>
+    <input id="email" type="email" required>
+
+    <p>เบอร์โทรศัพท์</p>
+    <input id="phone" type="tel">
+
+    <p>ข้อความ</p>
+    <textarea id="message" required></textarea>
+
+    <button type="submit">
+      ส่งข้อความ
+    </button>
+  </form>
+
+  <p>โทรศัพท์: 02-XXX-XXXX</p>
+  <p>Email: info@example.com</p>
+</section>
+
+<script src="js/contact.js"></script>
+</body>
+</html>
